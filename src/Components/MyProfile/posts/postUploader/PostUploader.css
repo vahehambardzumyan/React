@@ -1,0 +1,30 @@
+
+  
+  .label{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  }
+
+  .modalWrap {
+              
+                background-color: rgba(20, 40, 40, 1); ;
+                height: 400px;
+                width: 500px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex-wrap: wrap;
+                text-align: center;
+                color:rgba(10, 180, 180, 1);
+              }

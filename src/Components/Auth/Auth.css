@@ -1,0 +1,90 @@
+.Auth{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url('https://www.syfy.com/sites/syfy/files/wire/legacy/ironman3cover.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+    
+  }
+  p {
+    font-size: 14px;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #111;
+  background-repeat: no-repeat;
+}
+
+
+.flip-card {
+  width: 400px;
+  height: 400px;
+  perspective: 1000px;
+  position: relative;
+  margin: auto;
+  
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+  
+}
+
+ .rot {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+}
+
+.flip-card-back {
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+button {
+  border: 1px solid rgba(10, 180, 180, 1);
+  background: rgba(20, 40, 40, .8);
+  font-size: 14px;
+  color: white;
+  margin-top: 0px;
+  padding: 4px 12px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+button:hover {
+  opacity: 0.8;
+}

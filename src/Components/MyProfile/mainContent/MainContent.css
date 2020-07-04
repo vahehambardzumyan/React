@@ -1,0 +1,15 @@
+.mainContent{
+    width: 100%;
+    margin:auto;
+}
+
+.mainTitle{
+    font-size: 150px;
+}
+
+.content{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
